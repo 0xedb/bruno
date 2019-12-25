@@ -1,0 +1,16 @@
+{
+  "name": "bruno",
+  "version": "1.0.0",
+  "repository": "git@github.com:theBashShell/bruno.git",
+  "author": "theBashShell <edohbruno@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^6.0.0",
+    "rollup-plugin-svelte": "^5.1.1",
+    "svelte": "^3.16.7"
+  },
+  "dependencies": {}
+}
