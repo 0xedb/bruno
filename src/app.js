@@ -1,11 +1,15 @@
-import App from './components/App.svelte'
-import serviceWorker from './includeSw'
+import App from './components/App.svelte';
 
-
-serviceWorker()
+const sw = navigator.serviceWorker;
+if (sw) {
+    sw.register('./sw.js').then(() => {
+        console.log('service worker registered!');
+    });
+}
 
 const app = new App({
     target: document.body,
-    props: {
-    }
-})
+    props: {},
+});
+
+export default app;

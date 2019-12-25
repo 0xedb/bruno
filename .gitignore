@@ -1,8 +1,4 @@
 temp/
 .vscode
 node_modules
-public/* 
-!public/icons/
-!public/index.html
-!public/*.webmanifest
-!public/sw.js
+public/bundle
