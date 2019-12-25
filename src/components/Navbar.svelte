@@ -4,6 +4,7 @@
   const handleMenuClick = () => {
     toggleMenu = !toggleMenu;
     console.log(toggleMenu);
+    import('./App.svelte').then(res => console.log(res))
   };
 </script>
 
@@ -36,12 +37,11 @@
 
   .menu {
     width: 40px;
-    transform: rotate(0);
     transition: all 0.5s ease;
   }
 
   .animate {
-    transform: rotate(90deg);
+    transform: rotate(90deg) scale(1.3);
     transition: all 0.5s ease;
   }
 

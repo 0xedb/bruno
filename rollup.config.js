@@ -8,8 +8,8 @@ const production = !process.env.ROLLUP_WATCH;
 export default {
     input: './src/app.js',
     output: {
-        format: 'iife',
-        file: 'public/bundle/app.js',
+        format: 'esm',
+        dir: 'public/bundle'
     },
     plugins: [
         svelte({
