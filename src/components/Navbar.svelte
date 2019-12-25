@@ -4,14 +4,12 @@
   const handleMenuClick = () => {
     toggleMenu = !toggleMenu;
     console.log(toggleMenu);
-    import('./App.svelte').then(res => console.log(res))
   };
 </script>
 
 <style>
   nav {
     height: 100px;
-    background: #f5deb3;
   }
 
   .nav-content {

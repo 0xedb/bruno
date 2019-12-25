@@ -4,8 +4,7 @@
 
 <style>
  
-  div {
-    background: rgb(207, 102, 33);
+  div { 
     height: 100vh;
     min-height: 470px;
     width: 100vw;
