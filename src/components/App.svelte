@@ -1,6 +1,8 @@
 <script>
   import Navbar from "./Navbar.svelte";
   import Page from "./Page.svelte";
+  import IndexTop from "./IndexTop.svelte";
+  import Navaid from "./Navaid.svelte";
 </script>
 
 <svelte:head>
@@ -8,4 +10,6 @@
 </svelte:head>
 <Page>
   <Navbar />
+  <IndexTop />
+  <Navaid />
 </Page>

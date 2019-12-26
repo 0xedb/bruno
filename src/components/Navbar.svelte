@@ -9,10 +9,13 @@
 
 <style>
   nav {
+    position: fixed;
+    top:0;
     height: 100px;
+    width: 100%;
   }
 
-  .nav-content {
+  .nav-content { 
     display: flex;
     flex-flow: row nowrap;
     height: 100%;
