@@ -1,6 +1,6 @@
 <style>
   .nav-aid,
-  .nav-aid a {
+  .nav-aid > * {
     visibility: hidden;
     opacity: 0;
     display: none;
@@ -9,7 +9,7 @@
 
   @media (min-width: 650px) {
     .nav-aid,
-    .nav-aid a {
+    .nav-aid > * {
       visibility: unset;
       opacity: 1;
       display: block;
@@ -19,7 +19,7 @@
       top: 42%;
       right: 2%;
     }
-    .nav-aid a {
+    .nav-aid > * {
       width: 20px;
       height: 20px;
       border-radius: 100%;
@@ -46,8 +46,8 @@
 </style>
 
 <div class="nav-aid">
-  <a class="aid" href="#typescript" />
-  <a class="aid" href="#" />
-  <a class="aid" href="#" />
-  <a class="aid" href="#" />
+  <div class="aid" />
+  <div class="aid" />
+  <div class="aid" />
+  <div class="aid" />
 </div>

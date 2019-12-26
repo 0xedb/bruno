@@ -5,7 +5,7 @@
 <style>
   #app {
     display: flex;
-    flex-direction: column nowrap;
+    flex-direction: column;
     height: 100vh;
     min-height: 470px;
     width: 100vw;
@@ -18,5 +18,5 @@
 </style>
 
 <div id="app">
-  <slot></slot>
+  <slot />
 </div>
