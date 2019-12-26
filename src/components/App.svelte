@@ -5,6 +5,12 @@
   import Navaid from "./Navaid.svelte";
 </script>
 
+<style>
+  :global(html) {
+    scroll-behavior: smooth;
+  }
+</style>
+
 <svelte:head>
   <title>theBashShell::Bruno Edoh</title>
 </svelte:head>
