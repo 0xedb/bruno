@@ -1,7 +1,6 @@
 <style>
   header {
-    height: 450px;
-    background: wheat;
+    height: 450px; 
     width: 100%;
     padding-top: 100px;
   }
@@ -13,6 +12,6 @@
   }
 </style>
 
-<header id="head">
+<header id="typescript">
   <div>dddddd</div>
 </header>
