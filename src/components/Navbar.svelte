@@ -1,4 +1,5 @@
 <script>
+  import Overlay from "./Overlay.svelte";
   $: toggleMenu = false;
 
   const handleMenuClick = () => {
@@ -10,12 +11,14 @@
 <style>
   nav {
     position: fixed;
-    top:0;
-    height: 100px;
+    top: 0;
+    height: 60px;
     width: 100%;
+    min-width: 300px;
+    background: rgb(228, 228, 228);
   }
 
-  .nav-content { 
+  .nav-content {
     display: flex;
     flex-flow: row nowrap;
     height: 100%;
@@ -42,7 +45,7 @@
   }
 
   .animate {
-    transform: rotate(90deg) scale(1.3);
+    transform: rotate(90deg) scale(1.2);
     transition: all 0.5s ease;
   }
 
@@ -73,5 +76,6 @@
         on:click={handleMenuClick}
         class={`menu ${toggleMenu ? 'animate' : null}`} />
     </span>
+    <Overlay show={toggleMenu} />
   </div>
 </nav>

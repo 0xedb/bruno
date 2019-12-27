@@ -17,9 +17,6 @@
   <title>theBashShell::Bruno Edoh</title>
 </svelte:head>
 <Page>
-  <Navbar />
-  <IndexTop />
+  <Navbar /> 
   <Navaid />
-  <IndexContent />
-  <IndexFooter />
 </Page>

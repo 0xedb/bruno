@@ -25,6 +25,12 @@
       border-radius: 100%;
       background: #c7c7c7;
       margin: 8px;
+    }
+
+    .aid:hover {
+      background: #111010;
+      transform: scale(1.2);
+      transition: all 0.5s ease; 
       clip-path: polygon(
         50% 0%,
         90% 20%,
@@ -34,13 +40,6 @@
         0% 60%,
         10% 20%
       );
-    }
-
-    .aid:hover {
-      background: #111010;
-      transform: scale(1.2);
-      transition: all 0.5s ease;
-      clip-path: unset;
     }
   }
 </style>
