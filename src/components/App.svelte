@@ -18,5 +18,7 @@
 </svelte:head>
 <Page>
   <Navbar /> 
-  <Navaid />
+  <Navaid /> 
+  <IndexTop />
+  adfs
 </Page>

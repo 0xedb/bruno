@@ -1,64 +1,69 @@
+<script>
+  import { useLozad } from "../utils/lozad";
+  useLozad("myself");
+</script>
+
 <style>
   header {
-    height: 450px;
     width: 100%;
-    padding-top: 100px;
+    height: 460px;
+    background: wheat;
+    padding-top: 60px;
   }
 
   .content {
-    display: flex;
-    flex-flow: column nowrap;
-    width: 100%;
-    height: 400px;
-    background: crimson;
+    padding: 30px;
   }
 
-  .img {
-    border-radius: 100%;
-    height: 200px;
-    width: 200px;
+  .me {
+    width: 300px;
+    height: 300px;
+    background: rgb(179, 245, 225);
+  }
+
+  #myself { 
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+    clip-path: circle(50% at 50% 50%);
   }
 
   @media (min-width: 650px) {
     header {
-      height: 650px;
+      height: 800px;
+    }
+
+    #myself {
+      width: 450px;
+      height: 450px;
     }
 
     .content {
-      height: 560px;
-      flex-flow: row nowrap;
-      justify-content: space-around;
-    }
-    .content {
-      width: 100%;
-    }
-
-    .img {
-      border-radius: 100%;
-      height: 400px;
-      width: 400px;
+      padding: 50px;
     }
   }
 </style>
 
 <header id="typescript">
-  <div class="content">
-    <div class="content">
+  <section class="content">
+    <div>
+      <div>Full Stack Software Engineer</div>
       <div>
-        <div>Full Stack Software Engineer</div>
-        <div>
-          I design and develop wonderful
-          <sup>∞</sup>
-          apps
-        </div>
+        I design and develop wonderful∞ apps
+        <img src="./assets/img/verify.svg" alt="verified" />
       </div>
-    </div>
-    <div class="content">
-      <div>
-        <picture>
-          <img class="img" src="./assets/img/me.png" alt="me" />
-        </picture>
-      </div>
-    </div>
-  </div>
+    </div> 
+      <picture class="lozad" data-alt="bruno image">
+        <source
+          srcset="./assets/img/personal_desk.png"
+          media="(min-width: 650px)" />
+        <source
+          srcset="./assets/img/personal_mob.png"
+          media="(min-width: 0px)" />
+        <img id="myself" src="" alt="bruno image" />
+      </picture>
+    
+
+  </section>
 </header>

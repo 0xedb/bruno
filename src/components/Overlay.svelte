@@ -7,14 +7,14 @@
     position: absolute;
     height: 0px;
     width: 0px;
-    background: wheat;
+    background: #dedede;
     top: 60px;
     right: 0px;
     z-index: -3;
     margin: 0px 0px;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.8s ease;
+    transition: all 0.4s ease;
   }
 
   .show {

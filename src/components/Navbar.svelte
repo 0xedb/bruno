@@ -15,7 +15,7 @@
     height: 60px;
     width: 100%;
     min-width: 300px;
-    background: rgb(228, 228, 228);
+    background: linear-gradient(45deg, #ce5c5c, #ffeb3b);
   }
 
   .nav-content {
@@ -40,7 +40,7 @@
   }
 
   .menu {
-    width: 40px;
+    width: 30px;
     transition: all 0.5s ease;
   }
 
@@ -59,7 +59,7 @@
     }
 
     .menu {
-      width: 52px;
+      width: 42px;
     }
   }
 </style>
