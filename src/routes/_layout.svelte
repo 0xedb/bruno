@@ -6,9 +6,10 @@
   :global(html) {
     height: 100vh;
   }
+ 
 </style>
 
-<Navbar />
 <main>
+  <Navbar />
   <slot />
 </main>
