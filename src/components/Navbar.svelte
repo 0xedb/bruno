@@ -9,13 +9,15 @@
 </script>
 
 <style>
+  @import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
   nav {
     position: fixed;
     top: 0;
     height: 60px;
     width: 100%;
     min-width: 300px;
-    background: linear-gradient(45deg, #ce5c5c, #ffeb3b);
+    background: #fffffffb;
+    box-shadow: 0px 6px 20px #0000000f;
   }
 
   .nav-content {
@@ -35,8 +37,9 @@
     flex-flow: row-reverse nowrap;
   }
 
-  #logo {
-    width: 100px;
+  #logo-text {
+    font-family: "Caveat", cursive;
+    font-size: 30px;
   }
 
   .menu {
@@ -53,28 +56,18 @@
     .nav-content {
       padding: 0px 50px;
     }
-
-    #logo {
-      width: 130px;
-    }
-
-    .menu {
-      width: 42px;
-    }
   }
 </style>
 
 <nav>
   <div class="nav-content">
-    <span>
-      <img id="logo" src="./assets/img/bruno.svg" alt="logo" />
-    </span>
+    <span id="logo-text">&lt; bruno /&gt;</span>
     <span>
       <img
         src="./assets/img/menu.svg"
         alt="menu"
         on:click={handleMenuClick}
-        class={`menu ${toggleMenu ? 'animate' : null}`} />
+        class={`menu ${toggleMenu ? 'animate' : ''}`} />
     </span>
     <Overlay show={toggleMenu} />
   </div>

@@ -7,7 +7,7 @@
     position: absolute;
     height: 0px;
     width: 0px;
-    background: #dedede;
+    background: #f7f7f7;
     top: 60px;
     right: 0px;
     z-index: -3;
