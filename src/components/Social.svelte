@@ -1,1 +1,1 @@
-<div>facebook</div>
+<div class="flex-center">facebook</div> 

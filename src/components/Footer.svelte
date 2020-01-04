@@ -5,7 +5,7 @@
 <style>
   footer {
     height: 200px;
-    background: wheat;
+    background: #fbfbfb;
   }
 </style>
 

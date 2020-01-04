@@ -1,2 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
 
+.flex-center {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
