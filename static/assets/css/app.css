@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+* {
+  transition: all 0.5s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 .flex-center {
   padding-top: 30px;

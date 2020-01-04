@@ -51,7 +51,7 @@
     transition: all 0.5s ease;
   }
 
-  @media (min-width: 650px) {
+  @media (min-width: 750px) {
     .nav-content {
       padding: 0px 50px;
     }

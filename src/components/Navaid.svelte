@@ -7,7 +7,7 @@
     transition: all 0.5s ease;
   }
 
-  @media (min-width: 650px) {
+  @media (min-width: 750px) {
     .nav-aid,
     .nav-aid > * {
       visibility: unset;

@@ -24,7 +24,7 @@
     visibility: unset;
   }
 
-  @media (min-width: 650px) { 
+  @media (min-width: 750px) { 
     .show {
       width: 60%;
       height: 60vh;
