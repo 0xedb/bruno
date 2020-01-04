@@ -4,6 +4,7 @@
 
 <style>
   footer {
+    position: relative;
     height: 200px;
     background: #fbfbfb;
   }

@@ -13,6 +13,7 @@
       visibility: unset;
       opacity: 1;
       display: block;
+      z-index: 20;
     }
     .nav-aid {
       position: fixed;

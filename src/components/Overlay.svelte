@@ -26,8 +26,8 @@
 
   @media (min-width: 750px) { 
     .show {
-      width: 60%;
-      height: 60vh;
+      width: 40%;
+      height: 40vh;
     }
   }
 </style>

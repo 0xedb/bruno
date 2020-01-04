@@ -4,17 +4,18 @@
     width: 35px;
     flex-flow: row wrap;
     mix-blend-mode: difference;
+      padding: 0 1px;
   }
 
   section img:hover {
     mix-blend-mode: unset;
+    
   }
 
   @media (min-width: 750px) {
     section img {
       height: 45px;
       width: 45px;
-      padding: 0 4px;
     }
   }
 </style>
