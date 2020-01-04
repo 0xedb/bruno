@@ -1,15 +1,14 @@
 <script>
   import Overlay from "./Overlay.svelte";
   $: toggleMenu = false;
-
+  const LOGO = `<bruno />`;
   const handleMenuClick = () => {
     toggleMenu = !toggleMenu;
     console.log(toggleMenu);
   };
 </script>
 
-<style>
-  @import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+<style> 
   nav {
     position: fixed;
     top: 0;
@@ -61,7 +60,7 @@
 
 <nav>
   <div class="nav-content">
-    <span id="logo-text">&lt; bruno /&gt;</span>
+    <span id="logo-text">{LOGO}</span>
     <span>
       <img
         src="./assets/img/menu.svg"
