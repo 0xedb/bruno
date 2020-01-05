@@ -1,5 +1,7 @@
 <script>
   import Navaid from "../components/Navaid.svelte";
+  import { CONSTANTS } from "../util/constants.js";
+  const { technologies } = CONSTANTS;
 </script>
 
 <style>
@@ -91,6 +93,25 @@
         little self made a great decision to take a career path that gives me
         endless possibilities.
       </p>
+    </div>
+  </section>
+  <section class="flex-center">
+    <div class="push flex-center">
+      <span class="push-title">Frontend</span>
+      <blockquote>
+        “We need to remember that at it's core a web page is simple.” — Justin
+        Jackson
+      </blockquote>
+      <p>
+        I find myself trying to center divs. I spend considerable time selecting
+        colors and font-families. A lot of my time goes into finding the right
+        flex direction so users are always at the center.
+      </p>
+      <div class="technologies">
+        {#each technologies as { id, url }, _ (id)}
+          <img src={url.trim()} alt={id} />
+        {/each}
+      </div>
     </div>
   </section>
 </div>
