@@ -29,36 +29,72 @@ export const CONSTANTS = {
       url: "https://api.iconify.design/logos:phonegap-bot.svg"
     },
     { id: "cordova", url: "https://api.iconify.design/mdi:cordova.svg" },
-    { id: "", url: "https://api.iconify.design/logos:firebase.svg" },
-    { id: "", url: "https://api.iconify.design/logos:heroku-icon.svg" },
-    { id: "", url: "https://api.iconify.design/logos:bootstrap.svg" },
-    { id: "", url: "https://api.iconify.design/logos:bulma.svg" },
-    { id: "", url: "https://api.iconify.design/ion:logo-pwa.svg" },
-    { id: "", url: "https://api.iconify.design/logos:webpack.svg" },
-    { id: "", url: "https://api.iconify.design/logos:rollup.svg" },
-    { id: "", url: "https://api.iconify.design/logos:prettier.svg" },
-    { id: "", url: "https://api.iconify.design/logos:eslint.svg" },
-    { id: "", url: "https://api.iconify.design/logos:yarn.svg" },
-    { id: "", url: "https://api.iconify.design/logos:npm.svg" },
-    { id: "", url: "https://api.iconify.design/logos:jest.svg" },
-    { id: "", url: "https://api.iconify.design/logos:graphql.svg" },
-    { id: "", url: "https://api.iconify.design/logos:postman.svg" },
     {
-      id: "",
+      id: "firebase",
+      url: "https://api.iconify.design/logos:firebase.svg"
+    },
+    {
+      id: "heroku",
+      url: "https://api.iconify.design/logos:heroku-icon.svg"
+    },
+    {
+      id: "bootstrap",
+      url: "https://api.iconify.design/logos:bootstrap.svg"
+    },
+    { id: "bulma", url: "https://api.iconify.design/logos:bulma.svg" },
+    { id: "PWA", url: "https://api.iconify.design/ion:logo-pwa.svg" },
+    {
+      id: "webpack",
+      url: "https://api.iconify.design/logos:webpack.svg"
+    },
+    { id: "rollup", url: "https://api.iconify.design/logos:rollup.svg" },
+    {
+      id: "prettier",
+      url: "https://api.iconify.design/logos:prettier.svg"
+    },
+    { id: "eslint", url: "https://api.iconify.design/logos:eslint.svg" },
+    { id: "yarn", url: "https://api.iconify.design/logos:yarn.svg" },
+    { id: "npm", url: "https://api.iconify.design/logos:npm.svg" },
+    { id: "jest", url: "https://api.iconify.design/logos:jest.svg" },
+    {
+      id: "graphql",
+      url: "https://api.iconify.design/logos:graphql.svg"
+    },
+    {
+      id: "postman",
+      url: "https://api.iconify.design/logos:postman.svg"
+    },
+    {
+      id: "vscode",
       url: "https://api.iconify.design/logos:visual-studio-code.svg"
     },
-    { id: "", url: "https://api.iconify.design/ion:logo-markdown.svg" },
-    { id: "", url: "https://api.iconify.design/logos:uikit.svg" },
-    { id: "", url: "https://api.iconify.design/logos:now.svg" },
-    { id: "", url: "https://api.iconify.design/logos:cloudinary.svg" },
-    { id: "", url: "https://api.iconify.design/logos:codesandbox.svg" },
     {
-      id: "",
+      id: "markdown",
+      url: "https://api.iconify.design/ion:logo-markdown.svg"
+    },
+    { id: "uikit", url: "https://api.iconify.design/logos:uikit.svg" },
+    { id: "now", url: "https://api.iconify.design/logos:now.svg" },
+    {
+      id: "cloudinary",
+      url: "https://api.iconify.design/logos:cloudinary.svg"
+    },
+    {
+      id: "code sandbox",
+      url: "https://api.iconify.design/logos:codesandbox.svg"
+    },
+    {
+      id: "repl.it",
       url: "https://api.iconify.design/simple-icons:repl-dot-it.svg"
     },
-    { id: "", url: "https://api.iconify.design/logos:firefox.svg" },
-    { id: "", url: "https://api.iconify.design/logos:chrome.svg" },
-    { id: "", url: "https://api.iconify.design/logos:brave.svg" },
+    {
+      id: "firefox",
+      url: "https://api.iconify.design/logos:firefox.svg"
+    },
+    { id: "chrome", url: "https://api.iconify.design/logos:chrome.svg" },
+    {
+      id: "pwabrave",
+      url: "https://api.iconify.design/logos:brave.svg"
+    },
 
     { id: "redux", url: "https://api.iconify.design/logos:redux.svg" },
     {

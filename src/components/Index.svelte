@@ -38,6 +38,12 @@
     width: 100%;
   }
 
+  .tech {
+      width: 25px;
+      height: 25px;
+      padding: 3px;
+    }
+
   @media (min-width: 750px) {
     .content {
       flex-flow: row nowrap;
@@ -51,6 +57,12 @@
 
     .info {
       font-size: 18px;
+    }
+
+    .tech {
+      width: 40px;
+      height: 40px;
+      padding: 4px;
     }
   }
 </style>
@@ -109,7 +121,7 @@
       </p>
       <div class="technologies">
         {#each technologies as { id, url }, _ (id)}
-          <img src={url.trim()} alt={id} />
+          <img class="tech" src={url.trim()} alt={id} />
         {/each}
       </div>
     </div>
