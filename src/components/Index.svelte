@@ -17,6 +17,14 @@
     text-align: center;
   }
 
+  .info {
+    font-size: 18px;
+  }
+
+  .myself {
+    border-radius: 100%;
+  }
+
   @media (min-width: 750px) {
     .content {
       flex-flow: row nowrap;
@@ -38,13 +46,17 @@
         Full Stack Developer
         <img src="/assets/img/verify.svg" alt="verified" />
       </p>
+      <p class="info">I design and develop wonderful∞ apps</p>
     </div>
     <div>
       <picture>
         <source
           srcset="/assets/img/bruno_edoh_large.png"
           media="(min-width: 750px)" />
-        <img src="/assets/img/bruno_edoh_small.png" alt="bruno edoh" />
+        <img
+          class="myself"
+          src="/assets/img/bruno_edoh_small.png"
+          alt="bruno edoh" />
       </picture>
     </div>
   </section>
