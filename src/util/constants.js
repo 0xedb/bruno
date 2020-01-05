@@ -10,6 +10,8 @@ export const CONSTANTS = {
       id: "typescript",
       url: "https://api.iconify.design/logos:typescript-icon.svg"
     },
+    { id: "es6", url: "https://api.iconify.design/logos:es6.svg" },
+    { id: "babel", url: "https://api.iconify.design/logos:babel.svg" },
     { id: "react", url: "https://api.iconify.design/logos:react.svg" },
     {
       id: "svelte",
@@ -21,6 +23,18 @@ export const CONSTANTS = {
     {
       id: "electron",
       url: "https://api.iconify.design/logos:electron.svg"
+    },
+    {
+      id: "git",
+      url: "https://api.iconify.design/logos:git-icon.svg"
+    },
+    {
+      id: "github",
+      url: "https://api.iconify.design/ant-design:github-filled.svg"
+    },
+    {
+      id: "bitbucket",
+      url: "https://api.iconify.design/logos:bitbucket.svg"
     },
     { id: "sass", url: "https://api.iconify.design/logos:sass.svg" },
     { id: "figma", url: "https://api.iconify.design/logos:figma.svg" },
@@ -92,7 +106,7 @@ export const CONSTANTS = {
     },
     { id: "chrome", url: "https://api.iconify.design/logos:chrome.svg" },
     {
-      id: "pwabrave",
+      id: "brave",
       url: "https://api.iconify.design/logos:brave.svg"
     },
 

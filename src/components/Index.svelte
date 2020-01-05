@@ -22,6 +22,7 @@
 
   .info {
     font-size: 14px;
+    padding: 8px;
   }
 
   .myself {
@@ -39,10 +40,15 @@
   }
 
   .tech {
-      width: 25px;
-      height: 25px;
-      padding: 3px;
-    }
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+  }
+
+  .keyword {
+    color: #a99428;
+    font-size: 16px;
+  }
 
   @media (min-width: 750px) {
     .content {
@@ -64,6 +70,10 @@
       height: 40px;
       padding: 4px;
     }
+
+    .keyword {
+      font-size: 20px;
+    }
   }
 </style>
 
@@ -75,7 +85,11 @@
         Full Stack Developer
         <img src="/assets/img/verify.svg" alt="verified" />
       </p>
-      <p class="info">I design and develop wonderful∞ apps</p>
+      <p class="info">
+        I design and develop
+        <span class="keyword">wonderful∞</span>
+        apps
+      </p>
     </div>
     <div>
       <picture>
@@ -121,7 +135,7 @@
       </p>
       <div class="technologies">
         {#each technologies as { id, url }, _ (id)}
-          <img class="tech" src={url.trim()} alt={id} />
+          <img class="tech" src={url.trim()} alt={id} title={id} />
         {/each}
       </div>
     </div>
