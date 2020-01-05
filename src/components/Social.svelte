@@ -72,4 +72,10 @@
     target="_blank">
     <img src="/assets/img/instagram.svg" alt="instagram" />
   </a>
+  <a
+    href="https://sweetcode.io/author/bedoh/"
+    rel="noopener noreferrer"
+    target="_blank">
+    <img src="/assets/img/blog.svg" alt="sweetcode" />
+  </a>
 </section>
