@@ -33,6 +33,10 @@ export const CONSTANTS = {
       {
         id: "sql",
         url: "https://api.iconify.design/ant-design:console-sql-outlined.svg"
+      },
+      {
+        id: "markdown",
+        url: "https://api.iconify.design/ion:logo-markdown.svg"
       }
     ],
     frameworks: [
@@ -129,10 +133,7 @@ export const CONSTANTS = {
         id: "vscode",
         url: "https://api.iconify.design/logos:visual-studio-code.svg"
       },
-      {
-        id: "markdown",
-        url: "https://api.iconify.design/ion:logo-markdown.svg"
-      },
+      ,
       { id: "uikit", url: "https://api.iconify.design/logos:uikit.svg" },
       { id: "now", url: "https://api.iconify.design/logos:now.svg" },
       {
