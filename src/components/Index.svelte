@@ -1,5 +1,6 @@
 <script>
   import Navaid from "../components/Navaid.svelte";
+  import Tech from "../components/Tech.svelte";
   import { CONSTANTS } from "../util/constants.js";
   const { technologies } = CONSTANTS;
 </script>
@@ -121,43 +122,6 @@
       </p>
     </div>
   </section>
-  <section class="flex-center">
-    <div class="push flex-center">
-      <span class="push-title">Frontend</span>
-      <blockquote>
-        “We need to remember that at it's core a web page is simple.” — Justin
-        Jackson
-      </blockquote>
-      <p>
-        I find myself trying to center divs. I spend considerable time selecting
-        colors and font-families. A lot of my time goes into finding the right
-        flex direction so users are always at the center.
-      </p>
-      <div class="technologies">
-        {#each technologies.frontend as { id, url }, _ (id)}
-          <img class="tech" src={url.trim()} alt={id} title={id} />
-        {/each}
-      </div>
-    </div>
-  </section>
-
-  <section class="flex-center">
-    <div class="push flex-center">
-      <span class="push-title">Backend</span>
-      <blockquote>
-        “If something is worth doing once, it's worth building a tool to do it.”
-        — Tom Van Vleck
-      </blockquote>
-      <p>
-        I find myself trying to center divs. I spend considerable time selecting
-        colors and font-families. A lot of my time goes into finding the right
-        flex direction so users are always at the center.
-      </p>
-      <div class="technologies">
-        {#each technologies.backend as { id, url }, _ (id)}
-          <img class="tech" src={url.trim()} alt={id} title={id} />
-        {/each}
-      </div>
-    </div>
-  </section>
+  <Tech title="Languages" technology={technologies.languages} />
+  <Tech title="Frameworks + Libraries" technology={technologies.frameworks} />
 </div>
