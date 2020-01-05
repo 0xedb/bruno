@@ -134,7 +134,27 @@
         flex direction so users are always at the center.
       </p>
       <div class="technologies">
-        {#each technologies as { id, url }, _ (id)}
+        {#each technologies.frontend as { id, url }, _ (id)}
+          <img class="tech" src={url.trim()} alt={id} title={id} />
+        {/each}
+      </div>
+    </div>
+  </section>
+
+  <section class="flex-center">
+    <div class="push flex-center">
+      <span class="push-title">Backend</span>
+      <blockquote>
+        “If something is worth doing once, it's worth building a tool to do it.”
+        — Tom Van Vleck
+      </blockquote>
+      <p>
+        I find myself trying to center divs. I spend considerable time selecting
+        colors and font-families. A lot of my time goes into finding the right
+        flex direction so users are always at the center.
+      </p>
+      <div class="technologies">
+        {#each technologies.backend as { id, url }, _ (id)}
           <img class="tech" src={url.trim()} alt={id} title={id} />
         {/each}
       </div>
