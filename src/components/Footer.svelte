@@ -4,9 +4,10 @@
 
 <style>
   footer {
-    position: relative;
+    position: absolute;
     height: 200px;
     background: #fbfbfb;
+    width: 100%;
   }
 </style>
 

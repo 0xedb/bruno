@@ -89,6 +89,10 @@ export const CONSTANTS = {
     { id: "uikit", url: "https://api.iconify.design/logos:uikit.svg" },
     { id: "now", url: "https://api.iconify.design/logos:now.svg" },
     {
+      id: "netlify",
+      url: "https://api.iconify.design/logos:netlify.svg"
+    },
+    {
       id: "cloudinary",
       url: "https://api.iconify.design/logos:cloudinary.svg"
     },
