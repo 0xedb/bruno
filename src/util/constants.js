@@ -114,6 +114,10 @@ export const CONSTANTS = {
     {
       id: "ant",
       url: "https://api.iconify.design/ant-design:ant-design-outlined.svg"
+    },
+    {
+      id: "hugo",
+      url: "https://api.iconify.design/logos:hugo.svg"
     }
   ]
 };
