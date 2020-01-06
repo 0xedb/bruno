@@ -20,6 +20,10 @@
     padding: 3px;
   }
 
+  .tech:hover{
+    transform: scale(1.2)
+  }
+
   @media (min-width: 750px) {
     .tech {
       width: 40px;

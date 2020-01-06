@@ -122,6 +122,7 @@
       </p>
     </div>
   </section>
-  <Tech title="Languages" technology={technologies.languages} />
+  <Tech title="Languages + Core" technology={technologies.languages} />
   <Tech title="Frameworks + Libraries" technology={technologies.frameworks} />
+  <Tech title="Tools + ..." technology={technologies.tools} />
 </div>
