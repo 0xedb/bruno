@@ -31,7 +31,7 @@
 
 <section class="flex-center">
   <div class="push">
-    <span class="push-title">{title}</span>
+    <p class="push-title">{title}</p>
     <div class="technologies">
       {#each technology as { id, url }, _ (id)}
         <img class="tech" src={url.trim()} alt={id} title={id} />
