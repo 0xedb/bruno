@@ -34,6 +34,7 @@ export const CONSTANTS = {
         id: "sql",
         url: "https://api.iconify.design/ant-design:console-sql-outlined.svg"
       },
+      { id: "nosql", url: "https://api.iconify.design/whh:nosql.svg" },
       {
         id: "markdown",
         url: "https://api.iconify.design/ion:logo-markdown.svg"
