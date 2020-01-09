@@ -91,6 +91,14 @@ export const CONSTANTS = {
       {
         id: "ant",
         url: "https://api.iconify.design/ant-design:ant-design-outlined.svg"
+      },
+      {
+        id: "android",
+        url: "https://api.iconify.design/flat-color-icons:android-os.svg"
+      },
+      {
+        id: "javafx",
+        url: "https://upload.wikimedia.org/wikipedia/en/c/cc/JavaFX_Logo.png"
       }
     ],
     tools: [
@@ -115,6 +123,8 @@ export const CONSTANTS = {
         id: "kubernetes",
         url: "https://api.iconify.design/logos:kubernetes.svg"
       },
+      { id: "AWS", url: "https://api.iconify.design/logos:aws.svg" },
+      { id: "Azure", url: "https://api.iconify.design/mdi:azure.svg" },
       {
         id: "postman",
         url: "https://api.iconify.design/logos:postman.svg"
