@@ -108,6 +108,14 @@ export const CONSTANTS = {
         url: "https://api.iconify.design/logos:eslint.svg"
       },
       {
+        id: "docker",
+        url: "https://api.iconify.design/logos:docker-icon.svg"
+      },
+      {
+        id: "kubernetes",
+        url: "https://api.iconify.design/logos:kubernetes.svg"
+      },
+      {
         id: "postman",
         url: "https://api.iconify.design/logos:postman.svg"
       },
