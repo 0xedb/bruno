@@ -106,11 +106,6 @@ export const CONSTANTS = {
         url: "https://api.iconify.design/flat-color-icons:android-os.svg"
       },
       {
-        id: "scene builder",
-        url:
-          "https://i0.wp.com/gluonhq.com/wp-content/uploads/2015/02/SceneBuilderLogo.png?fit=781%2C781&ssl=1"
-      },
-      {
         id: "javafx",
         url: "https://upload.wikimedia.org/wikipedia/en/c/cc/JavaFX_Logo.png"
       }
@@ -124,6 +119,7 @@ export const CONSTANTS = {
         id: "rollup",
         url: "https://api.iconify.design/logos:rollup.svg"
       },
+      { id: "parcel", url: "https://parceljs.org/assets/parcel-og.png" },
       { id: "babel", url: "https://api.iconify.design/logos:babel.svg" },
       {
         id: "eslint",
@@ -219,6 +215,11 @@ export const CONSTANTS = {
       {
         id: "wordpress",
         url: "https://api.iconify.design/fe:wordpress-alt.svg"
+      },
+      {
+        id: "scene builder",
+        url:
+          "https://i0.wp.com/gluonhq.com/wp-content/uploads/2015/02/SceneBuilderLogo.png?fit=781%2C781&ssl=1"
       }
     ]
   }
