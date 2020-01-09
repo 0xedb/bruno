@@ -74,12 +74,21 @@ export const CONSTANTS = {
         url: "https://api.iconify.design/logos:jquery.svg"
       },
       {
+        id: "jquery mobile",
+        url: "https://api.iconify.design/logos:jquery-mobile.svg"
+      },
+      {
         id: "phonegap",
         url: "https://api.iconify.design/logos:phonegap-bot.svg"
       },
       {
         id: "cordova",
         url: "https://api.iconify.design/mdi:cordova.svg"
+      },
+      {
+        id: "anaconda",
+        url:
+          "https://www.clipartmax.com/png/full/234-2342873_anaconda-on-twitter-anaconda-python.png"
       },
       { id: "sass", url: "https://api.iconify.design/logos:sass.svg" },
       {
@@ -95,6 +104,11 @@ export const CONSTANTS = {
       {
         id: "android",
         url: "https://api.iconify.design/flat-color-icons:android-os.svg"
+      },
+      {
+        id: "scene builder",
+        url:
+          "https://i0.wp.com/gluonhq.com/wp-content/uploads/2015/02/SceneBuilderLogo.png?fit=781%2C781&ssl=1"
       },
       {
         id: "javafx",
