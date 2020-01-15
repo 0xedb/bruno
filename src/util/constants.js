@@ -78,6 +78,10 @@ export const CONSTANTS = {
         url: "https://api.iconify.design/logos:jquery-mobile.svg"
       },
       {
+        id: "android",
+        url: "https://api.iconify.design/flat-color-icons:android-os.svg"
+      },
+      {
         id: "phonegap",
         url: "https://api.iconify.design/logos:phonegap-bot.svg"
       },
@@ -100,10 +104,6 @@ export const CONSTANTS = {
       {
         id: "ant",
         url: "https://api.iconify.design/ant-design:ant-design-outlined.svg"
-      },
-      {
-        id: "android",
-        url: "https://api.iconify.design/flat-color-icons:android-os.svg"
       },
       {
         id: "javafx",

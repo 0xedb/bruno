@@ -5,6 +5,7 @@
 <style>
   footer {
     position: absolute;
+    margin-top: 40px;
     height: 200px;
     background: #fbfbfb;
     width: 100%;
