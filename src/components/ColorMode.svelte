@@ -10,6 +10,9 @@
 </script>
 
 <style>
+:global(body) {
+ 
+}
   div {
     position: relative;
     top: 70px;

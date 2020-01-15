@@ -1,15 +1,15 @@
 <script>
   import Navaid from "../components/Navaid.svelte";
   import Tech from "../components/Tech.svelte";
-  import { CONSTANTS } from "../util/constants.js";
-  import {} from ''
+  import { mode } from "../util/store.js";
+  import { CONSTANTS } from "../util/constants.js"; 
   const { technologies } = CONSTANTS;
 </script>
 
 <style>
   #index {
     margin-top: 60px;
-    height: 100%;
+    height: 100vh;
     font-family: "Fira Code", monospace;
   }
 
@@ -80,7 +80,7 @@
 </style>
 
 <Navaid />
-<div id="index">
+<div id="index" class={$mode}>
   <section class="content flex-center">
     <div class="description">
       <p>

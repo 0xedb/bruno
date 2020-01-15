@@ -1,6 +1,5 @@
 <script>
-  import Overlay from "./Overlay.svelte";
-  import { mode } from "../util/store.js";
+  import Overlay from "./Overlay.svelte"; 
 
   $: toggleMenu = false;
   const LOGO = `<bruno />`;
@@ -60,7 +59,7 @@
   }
 </style>
 
-<nav class={$mode}>
+<nav>
   <div class="nav-content">
     <span id="logo-text">{LOGO}</span>
     <span>
