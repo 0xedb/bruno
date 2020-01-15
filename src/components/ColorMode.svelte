@@ -1,12 +1,12 @@
 <script>
   let isDarkMode = false;
-  let imageSrc = "light";
+  let imageSrc = "dark";
   const changeColorMode = () => {
     isDarkMode = !isDarkMode;
     if (isDarkMode) {
-      imageSrc = "dark";
-    } else {
       imageSrc = "light";
+    } else {
+      imageSrc = "dark";
     }
     console.log(isDarkMode);
   };
