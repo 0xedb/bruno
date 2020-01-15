@@ -8,11 +8,14 @@
   :global(html) {
     height: 100vh;
   }
+  
 </style>
 
-<main>
-  <Navbar />
-  <ColoMode />
-  <slot />
-</main>
-<Footer />
+<div id='js'>
+  <main>
+    <Navbar />
+    <ColoMode />
+    <slot />
+  </main>
+  <Footer />
+</div>
