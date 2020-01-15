@@ -13,3 +13,11 @@ html {
   justify-content: center;
   align-items: center;
 }
+
+.dark {
+  background: #151515;
+}
+
+.light {
+  background: unset;
+}

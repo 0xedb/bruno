@@ -2,6 +2,7 @@
   import Navaid from "../components/Navaid.svelte";
   import Tech from "../components/Tech.svelte";
   import { CONSTANTS } from "../util/constants.js";
+  import {} from ''
   const { technologies } = CONSTANTS;
 </script>
 

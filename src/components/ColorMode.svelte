@@ -1,14 +1,9 @@
 <script>
-  let isDarkMode = false;
-  let imageSrc = "dark";
+  import { mode } from "../util/store.js";
+
   const changeColorMode = () => {
-    isDarkMode = !isDarkMode;
-    if (isDarkMode) {
-      imageSrc = "light";
-    } else {
-      imageSrc = "dark";
-    }
-    console.log(isDarkMode);
+    $mode = $mode === "light" ? "dark" : "light";
+    console.log($mode);
   };
 </script>
 
@@ -19,7 +14,7 @@
     z-index: 0;
     display: flex;
     justify-content: flex-end;
-    padding: 0px 20px; 
+    padding: 0px 20px;
   }
 
   div img {
@@ -35,7 +30,7 @@
 
 <div>
   <img
-    src={`/assets/img/${imageSrc}.svg`}
+    src={`/assets/img/${$mode}.svg`}
     alt="light"
     on:click={changeColorMode} />
 </div>
