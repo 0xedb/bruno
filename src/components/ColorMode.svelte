@@ -14,10 +14,12 @@
 
 <style>
   div {
-    position: absolute;
+    position: relative;
     top: 70px;
-    right: 10px;
     z-index: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 20px; 
   }
 
   div img {
@@ -32,5 +34,8 @@
 </style>
 
 <div>
-  <img src={`/assets/img/${imageSrc}.svg`} alt="light" on:click={changeColorMode} />
+  <img
+    src={`/assets/img/${imageSrc}.svg`}
+    alt="light"
+    on:click={changeColorMode} />
 </div>
