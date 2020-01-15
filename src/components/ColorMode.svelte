@@ -5,6 +5,8 @@
     $mode = $mode === "light" ? "dark" : "light";
     console.log($mode);
   };
+
+  $: img = $mode === "light" ? "dark" : "light";
 </script>
 
 <style>
@@ -29,8 +31,5 @@
 </style>
 
 <div>
-  <img
-    src={`/assets/img/${$mode}.svg`}
-    alt="light"
-    on:click={changeColorMode} />
+  <img src={`/assets/img/${img}.svg`} alt="light" on:click={changeColorMode} />
 </div>
