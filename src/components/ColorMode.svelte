@@ -1,13 +1,27 @@
 <script>
-
+  let isDarkMode = false;
+  let imageSrc = "light";
+  const changeColorMode = () => {
+    isDarkMode = !isDarkMode;
+    if (isDarkMode) {
+      imageSrc = "dark";
+    } else {
+      imageSrc = "light";
+    }
+    console.log(isDarkMode);
+  };
 </script>
 
 <style>
   div {
     position: absolute;
     top: 70px;
-    right: 30px;
-    z-index: -1;
+    right: 10px;
+    z-index: 0;
+  }
+
+  div img {
+    height: 30px;
   }
 
   @media (min-width: 750px) {
@@ -18,5 +32,5 @@
 </style>
 
 <div>
-  <img src="/assets/img/light.svg" alt="light" />
+  <img src={`/assets/img/${imageSrc}.svg`} alt="light" on:click={changeColorMode} />
 </div>
