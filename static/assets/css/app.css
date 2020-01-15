@@ -15,9 +15,9 @@ html {
 }
 
 .dark {
-  background: #151515;
+  background: #151515 !important;
 }
 
 .light {
-  background: unset;
+  background: unset !important;
 }

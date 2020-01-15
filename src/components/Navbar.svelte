@@ -1,5 +1,7 @@
 <script>
   import Overlay from "./Overlay.svelte";
+  import { mode } from "../util/store.js";
+
   $: toggleMenu = false;
   const LOGO = `<bruno />`;
   const handleMenuClick = () => {
@@ -8,7 +10,7 @@
   };
 </script>
 
-<style> 
+<style>
   nav {
     position: fixed;
     top: 0;
@@ -58,7 +60,7 @@
   }
 </style>
 
-<nav>
+<nav class={$mode}>
   <div class="nav-content">
     <span id="logo-text">{LOGO}</span>
     <span>
