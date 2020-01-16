@@ -1,4 +1,5 @@
 export const CONSTANTS = {
+  cache: "the_bash_cache",
   technologies: {
     languages: [
       {
