@@ -2,32 +2,42 @@
   import Navbar from "../components/Navbar.svelte";
   import Footer from "../components/Footer.svelte";
   import ColoMode from "../components/ColorMode.svelte";
+  import { mode } from "../util/store";
 </script>
 
 <style>
   :global(html) {
-    @import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+    /* @import url("https://fonts.googleapis.com/css?family=Caveat&display=swap"); */
     height: 100vh;
     transition: all 0.5s ease;
     scroll-behavior: smooth;
   }
   :global(.flex-center) {
-    padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   :global(.dark) {
-    background: #151515 !important;
+    background: #151515 ;
+    color: #f7f7f7 ;
   }
 
   :global(.light) {
-    background: unset !important;
+    background: #f7f7f7;
+    color: #626262 ;
+  }
+
+  #js {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    min-width: 300px;
+    min-height: 475px;
   }
 </style>
 
-<div id="js">
+<div id="js" class={$mode}>
   <main>
     <Navbar />
     <ColoMode />

@@ -6,8 +6,7 @@
   .overlay {
     position: absolute;
     height: 0px;
-    width: 0px; 
-    background: #fffffffb; 
+    width: 0px;  
     top: 60px;
     right: 0px;
     z-index: -3;

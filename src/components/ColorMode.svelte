@@ -16,7 +16,7 @@
   div {
     position: relative;
     top: 70px;
-    z-index: 0;
+    z-index: 10;
     display: flex;
     justify-content: flex-end;
     padding: 0px 20px;

@@ -15,8 +15,7 @@
     top: 0;
     height: 60px;
     width: 100%;
-    min-width: 300px;
-    background: #fffffffb;
+    min-width: 300px; 
     box-shadow: 0px 6px 20px #0000000f;
   }
 

@@ -5,9 +5,9 @@
 <style>
   footer {
     position: absolute;
+    bottom: 0;
     margin-top: 40px;
-    height: 200px;
-    background: #fbfbfb;
+    height: 200px; 
     width: 100%;
   }
 </style>
