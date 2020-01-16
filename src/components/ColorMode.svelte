@@ -26,5 +26,9 @@
 </style>
 
 <div>
-  <img src={`/assets/img/${img}.svg`} alt="light" on:click={changeColorMode} />
+  <img
+    src={`/assets/img/${img}.svg`}
+    alt="light"
+    on:click={changeColorMode}
+    title={`${img} mode`} />
 </div>
