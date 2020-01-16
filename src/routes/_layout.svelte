@@ -37,9 +37,7 @@
 </style>
 
 <div id="js" class={$mode}>
-  <Navbar /> 
-  <main>
-    <slot />
-  </main>
-  <Footer />
+  <Navbar />  
+    <slot /> 
+  <!-- <Footer /> -->
 </div>

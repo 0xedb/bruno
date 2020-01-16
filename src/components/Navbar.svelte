@@ -22,6 +22,7 @@
 
   .dark {
     color: #838383;
+    box-shadow: 0px 6px 20px #eeeeee3a;
   }
 
   .nav-content {
