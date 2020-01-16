@@ -15,8 +15,8 @@
   }
 
   .tech {
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     padding: 3px;
   }
 
@@ -26,8 +26,8 @@
 
   @media (min-width: 750px) {
     .tech {
-      width: 40px;
-      height: 40px;
+      width: 50px;
+      height: 50px;
       padding: 4px;
     }
   }

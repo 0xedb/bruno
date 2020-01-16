@@ -1,6 +1,6 @@
 <script>
   import Navbar from "../components/Navbar.svelte";
-  import Footer from "../components/Footer.svelte"; 
+  import Footer from "../components/Footer.svelte";
   import { mode } from "../util/store";
 </script>
 
@@ -20,11 +20,13 @@
   :global(.dark) {
     background: #151515;
     color: #f7f7f7;
+    transition: background 0.5s ease-in, color 0.4s ease-in;
   }
 
   :global(.light) {
     background: #f7f7f7;
     color: #626262;
+    transition: background 0.5s ease-in, color 0.4s ease-in;
   }
 
   #js {
@@ -37,7 +39,7 @@
 </style>
 
 <div id="js" class={$mode}>
-  <Navbar />  
-    <slot /> 
+  <Navbar />
+  <slot />
   <!-- <Footer /> -->
 </div>

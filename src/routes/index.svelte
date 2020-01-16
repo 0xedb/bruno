@@ -5,8 +5,7 @@
   import MePush from "../components/MePush.svelte";
   import MeTech from "../components/MeTech.svelte";
   import MeNext from "../components/MeNext.svelte";
-</script>
-
+</script> 
 <svelte:head>
   <title>theBashShell::Bruno Edoh</title>
 </svelte:head>

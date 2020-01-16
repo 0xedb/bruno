@@ -4,6 +4,8 @@
   const { technologies } = CONSTANTS;
 </script>
 
-<Tech title="Languages + Core" technology={technologies.languages} />
-<Tech title="Frameworks + Libraries" technology={technologies.frameworks} />
-<Tech title="Tools + ..." technology={technologies.tools} />
+<div class="flex-center">
+  <Tech title="Languages + Core" technology={technologies.languages} />
+  <Tech title="Frameworks + Libraries" technology={technologies.frameworks} />
+  <Tech title="Tools + ..." technology={technologies.tools} />
+</div>
