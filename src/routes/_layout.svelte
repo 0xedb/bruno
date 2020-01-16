@@ -1,7 +1,6 @@
 <script>
   import Navbar from "../components/Navbar.svelte";
-  import Footer from "../components/Footer.svelte";
-  import ColoMode from "../components/ColorMode.svelte";
+  import Footer from "../components/Footer.svelte"; 
   import { mode } from "../util/store";
 </script>
 
@@ -19,13 +18,13 @@
   }
 
   :global(.dark) {
-    background: #151515 ;
-    color: #f7f7f7 ;
+    background: #151515;
+    color: #f7f7f7;
   }
 
   :global(.light) {
     background: #f7f7f7;
-    color: #626262 ;
+    color: #626262;
   }
 
   #js {
@@ -38,9 +37,8 @@
 </style>
 
 <div id="js" class={$mode}>
+  <Navbar /> 
   <main>
-    <Navbar />
-    <ColoMode />
     <slot />
   </main>
   <Footer />

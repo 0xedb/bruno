@@ -14,10 +14,11 @@
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run"
   },
-  "dependencies": { 
+  "dependencies": {
     "compression": "^1.7.4",
     "polka": "^0.5.2",
-    "sirv": "^0.4.2"
+    "sirv": "^0.4.2",
+    "swiper": "^5.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",

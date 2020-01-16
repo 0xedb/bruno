@@ -7,6 +7,7 @@
   const handleMenuClick = () => {
     toggleMenu = !toggleMenu;
   };
+  import ColorMode from "./ColorMode.svelte";
 </script>
 
 <style>
@@ -71,7 +72,8 @@
         alt="menu"
         on:click={handleMenuClick}
         class={`menu ${toggleMenu ? 'animate' : ''}`} />
+      <ColorMode />
     </span>
-    <Overlay show={toggleMenu} />
   </div>
+  <Overlay show={toggleMenu} />
 </nav>
