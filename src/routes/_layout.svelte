@@ -20,13 +20,13 @@
   :global(.dark) {
     background: #151515;
     color: #f7f7f7;
-    transition: background 0.5s ease-in, color 0.4s ease-in;
+    transition: background 0.5s ease, color 0.4s ease;
   }
 
   :global(.light) {
     background: #f7f7f7;
     color: #626262;
-    transition: background 0.5s ease-in, color 0.4s ease-in;
+    transition: background 0.5s ease, color 0.4s ease;
   }
 
   #js {
