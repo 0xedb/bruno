@@ -8,6 +8,7 @@
 
   .push-title {
     width: 100%;
+    display: block;
   }
 </style>
 <section class="swiper-slide flex-center">
