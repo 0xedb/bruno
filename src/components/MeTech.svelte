@@ -4,7 +4,16 @@
   const { technologies } = CONSTANTS;
 </script>
 
-<div class="flex-center">
+<style>
+  .all {
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+</style>
+
+<div class="swiper-slide all">
   <Tech title="Languages + Core" technology={technologies.languages} />
   <Tech title="Frameworks + Libraries" technology={technologies.frameworks} />
   <Tech title="Tools + ..." technology={technologies.tools} />

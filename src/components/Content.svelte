@@ -1,18 +1,20 @@
 <script>
   import { onMount } from "svelte";
   import Swiper from "swiper";
+  import Footer from "../components/Footer.svelte";
 
   onMount(() => {
     new Swiper(".swiper-container", {
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
-        dynamicBullets: true,
+        dynamicBullets: true
         // type: "progressbar"
       },
       direction: "vertical",
       slidesPerView: 1,
       paginationClickable: true,
+      keyboard: { enabled: true },
       mousewheel: {
         releaseOnEdges: true
       },
@@ -30,7 +32,7 @@
     -ms-overflow-style: none;
     overflow: hidden;
     position: relative;
-    z-index: 2; 
+    z-index: 2;
   }
 
   ::-webkit-scrollbar {
@@ -49,6 +51,7 @@
 <section class="swiper-container">
   <div class="swiper-wrapper">
     <slot />
+    <Footer />
   </div>
-    <div class="swiper-pagination" />
+  <div class="swiper-pagination" />
 </section>

@@ -17,7 +17,7 @@
   .tech {
     width: 35px;
     height: 35px;
-    padding: 3px;
+    padding: 6px;
   }
 
   .tech:hover{
@@ -33,7 +33,7 @@
   }
 </style>
 
-<section class="flex-center">
+<div class="flex-center">
   <div class="push">
     <p class="push-title">{title}</p>
     <div class="technologies">
@@ -42,4 +42,4 @@
       {/each}
     </div>
   </div>
-</section>
+</div>
