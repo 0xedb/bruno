@@ -1,6 +1,15 @@
+<script>
+  import { mode } from "../util/store";
+  import { onMount } from "svelte";
+</script>
+
 <style>
   .content {
     flex-flow: column nowrap;
+  }
+
+  .myself {
+    border-radius: 100%;
   }
 
   .description {
@@ -11,6 +20,10 @@
   .info {
     font-size: 14px;
     padding: 8px;
+  }
+
+  .dark {
+    filter: grayscale(1);
   }
 
   @media (min-width: 750px) {
@@ -48,7 +61,7 @@
         srcset="/assets/img/bruno_edoh_large.png"
         media="(min-width: 750px)" />
       <img
-        class="myself"
+        class={`myself ${$mode}`}
         src="/assets/img/bruno_edoh_small.png"
         alt="bruno edoh" />
     </picture>
