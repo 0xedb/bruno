@@ -4,11 +4,18 @@
 
   onMount(() => {
     new Swiper(".swiper-container", {
-      pagination: ".swiper-pagination",
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+        // type: "progressbar"
+      },
       direction: "vertical",
       slidesPerView: 1,
       paginationClickable: true,
-      mousewheel: true,
+      mousewheel: {
+        releaseOnEdges: true
+      },
       parallax: true,
       speed: 700
     });
@@ -22,24 +29,26 @@
     padding-top: 60px;
     -ms-overflow-style: none;
     overflow: hidden;
+    position: relative;
+    z-index: 2; 
   }
 
   ::-webkit-scrollbar {
     display: none;
   }
-  .swiper-pagination {
+  /* .swiper-pagination {
     height: 20px;
     width: 20px;
     background: blue;
-    position: fixed;
+  
     top: 42%;
     right: 2%;
-  }
+  } */
 </style>
 
 <section class="swiper-container">
   <div class="swiper-wrapper">
     <slot />
   </div>
-  <div class="swiper-pagination" />
+    <div class="swiper-pagination" />
 </section>

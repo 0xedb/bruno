@@ -1,6 +1,7 @@
 <script>
   import Index from "../components/Index.svelte";
   import Content from "../components/Content.svelte";
+  import MeIntro from "../components/MeIntro.svelte";
 </script>
 
 <svelte:head>
@@ -8,7 +9,7 @@
 </svelte:head>
 
 <Content>
-  <section class="swiper-slide">one</section>
-  <section class="swiper-slide">two</section>
+  <MeIntro />
+  <MeIntro />
+  <MeIntro />
 </Content>
- 

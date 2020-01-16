@@ -14,6 +14,7 @@
   nav {
     position: fixed;
     top: 0;
+    z-index: 30;
     height: 60px;
     width: 100%;
     min-width: 300px;
