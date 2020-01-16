@@ -80,7 +80,7 @@
 </style>
 
 <Navaid />
-<div id="index" class={$mode}>
+ 
   <section class="content flex-center">
     <div class="description">
       <p>
@@ -126,4 +126,4 @@
   <Tech title="Languages + Core" technology={technologies.languages} />
   <Tech title="Frameworks + Libraries" technology={technologies.frameworks} />
   <Tech title="Tools + ..." technology={technologies.tools} />
-</div>
+
