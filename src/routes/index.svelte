@@ -5,11 +5,13 @@
   import MePush from "../components/MePush.svelte";
   import MeTech from "../components/MeTech.svelte";
   import MeNext from "../components/MeNext.svelte";
-</script> 
+  import Navaid from "../components/Navaid.svelte";
+</script>
+
 <svelte:head>
   <title>theBashShell::Bruno Edoh</title>
 </svelte:head>
-
+<Navaid />
 <Content>
   <MeIntro />
   <MePush />

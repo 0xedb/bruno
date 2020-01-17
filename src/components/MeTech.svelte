@@ -10,10 +10,11 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+    overflow: visible;
   }
 </style>
 
-<div class="swiper-slide all">
+<div id="typescript" class="swiper-slide all">
   <Tech title="Languages + Core" technology={technologies.languages} />
   <Tech title="Frameworks + Libraries" technology={technologies.frameworks} />
   <Tech title="Tools + ..." technology={technologies.tools} />

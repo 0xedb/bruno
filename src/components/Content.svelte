@@ -2,7 +2,6 @@
   import { onMount } from "svelte";
   import Swiper from "swiper";
   import Footer from "../components/Footer.svelte";
-
   onMount(() => {
     new Swiper(".swiper-container", {
       pagination: {

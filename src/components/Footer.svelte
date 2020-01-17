@@ -7,12 +7,14 @@
     /* position: absolute; */
     /* bottom: 0;
     margin-top: 40px;
-    height: 200px;
-    width: 100%; */
+    height: 200px;*/
+    width: 100%;
+    flex-flow: column wrap;
   }
 </style>
 
-<footer class="swiper-slide ">
+<footer id="c" class="swiper-slide flex-center">
   <Social />
   footer here
+  <div>&copy; 2019</div>
 </footer>

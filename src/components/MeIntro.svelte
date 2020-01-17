@@ -43,7 +43,7 @@
   }
 </style>
 
-<section class="swiper-slide flex-center content">
+<section id="javascript" class="swiper-slide flex-center content">
   <div class="description">
     <p>
       Full Stack Developer
