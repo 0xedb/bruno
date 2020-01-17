@@ -11,29 +11,31 @@ self.addEventListener("activate", event => {
   console.log("service worker activated");
 });
 
+const cacheAllImages = async event => {
+  const request = event.request;
+  // open cache
+  const cache = await caches.open(CURRENT_CACHE);
+  const cacheResponse = await cache.match(request);
+
+  // match with request
+  if (cacheResponse) {
+    return cacheResponse;
+  } else {
+    // fetch
+    // now cache
+    return await fetch(request).then(res => {
+      const clonedResponse = res.clone();
+      cache.put(request, clonedResponse);
+      return res;
+    });
+  }
+};
+
 self.addEventListener("fetch", event => {
-  console.log("service worker fetch event");
-  console.log(event.request);
+  console.dir(event.request);
+  if (event.request.method != "GET") return;
 
-  // event.respondWith(
-  //   caches
-  //     .match(event.request)
-  //     .then(response => {
-  //       // response || fetch(event.request);
-  //       response ? response : //
-  //     })
-  //     .catch(err => console.error(err))
-  // );
+  if (event.request.destination === "image") {
+    event.respondWith(cacheAllImages(event));
+  }
 });
-
-// function fetchAndCache(event) {
-//   const request = event.request;
-
-//   if (request.destination === "image") { 
-//     // fetch
-//     fetch(request).then(() => 
-//       caches.open(CURRENT_CACHE).then(cache => return cache.add)
-//     )
-//     // cache 
-//   }
-// }
