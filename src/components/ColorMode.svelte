@@ -1,9 +1,16 @@
 <script>
   import { mode } from "../util/store.js";
+  import { CONSTANTS } from "../util/constants";
+  import { onMount } from "svelte";
+
+  onMount(() => {
+    const userMode = window.localStorage.getItem(CONSTANTS.mode_key);
+    $mode = userMode ? userMode : CONSTANTS.mode;
+  });
 
   const changeColorMode = () => {
     $mode = $mode === "light" ? "dark" : "light";
-    console.log($mode);
+    window.localStorage.setItem(CONSTANTS.mode_key, $mode);
   };
 
   $: img = $mode === "light" ? "dark" : "light";

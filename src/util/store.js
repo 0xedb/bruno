@@ -1,3 +1,4 @@
 import { writable } from "svelte/store";
-
-export const mode = writable("light");
+import { CONSTANTS } from "./constants";
+import {onMount} from 'svelte' 
+export const mode = writable();

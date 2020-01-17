@@ -1,5 +1,7 @@
 export const CONSTANTS = {
   cache: "the_bash_cache",
+  mode: "light",
+  mode_key: "tbs_mode",
   technologies: {
     languages: [
       {
