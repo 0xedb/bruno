@@ -11,8 +11,8 @@
 </svelte:head>
 
 <Content>
-  <MeTech />
   <MeIntro />
   <MePush />
+  <MeTech />
   <MeNext />
 </Content>
