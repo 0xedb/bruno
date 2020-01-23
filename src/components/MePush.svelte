@@ -4,17 +4,18 @@
   }
 
   .push {
-    max-width: 950px;
+    max-width: 700px;
     width: 90%;
-    height: 40%;
   }
 
-  
+  .title {
+    display: block; 
+  }
 </style>
 
 <section id="go" class="swiper-slide flex-center">
-  <div class="push-title">The Push</div>
   <p class="push">
+    <span class="title">The Push</span>
     My interest in computers was piqued at young age. I first learned about
     programming at age 12, reading about the BASIC programming language from the
     appendix of a math book. Around that time, I read extensively about
