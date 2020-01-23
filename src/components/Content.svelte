@@ -8,7 +8,9 @@
         el: ".swiper-pagination",
         clickable: true,
         dynamicBullets: true
-        // type: "progressbar"
+      },
+      hashNavigation: {
+        watchState: true
       },
       direction: "vertical",
       slidesPerView: 1,
