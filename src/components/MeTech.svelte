@@ -14,7 +14,7 @@
   }
 </style>
 
-<div id="typescript" class="swiper-slide all" data-hash="typescript">
+<div class="swiper-slide all" data-hash="typescript">
   <Tech title="Languages + Core" technology={technologies.languages} />
   <Tech title="Frameworks + Libraries" technology={technologies.frameworks} />
   <Tech title="Tools++" technology={technologies.tools} />

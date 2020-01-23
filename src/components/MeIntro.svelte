@@ -43,8 +43,7 @@
   }
 </style>
 
-<section
-  id="javascript"
+<section 
   class="swiper-slide flex-center content"
   data-hash="javascript">
   <div class="description">

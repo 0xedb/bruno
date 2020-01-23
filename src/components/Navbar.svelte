@@ -74,7 +74,7 @@
 <nav class={$mode}>
   <div class="nav-content">
     <span id="logo-text">
-      <a href="/#">{LOGO}</a>
+      <a href="/#javascript">{LOGO}</a>
     </span>
     <span>
       <img
