@@ -21,6 +21,11 @@
     box-shadow: 0px 6px 20px #0000000f;
   }
 
+  a {
+    text-decoration: none;
+    color: unset;
+  }
+
   .dark {
     color: #838383;
     box-shadow: 0px 6px 20px #eeeeee3a;
@@ -68,7 +73,9 @@
 
 <nav class={$mode}>
   <div class="nav-content">
-    <span id="logo-text">{LOGO}</span>
+    <span id="logo-text">
+      <a href="/#">{LOGO}</a>
+    </span>
     <span>
       <img
         src="./assets/img/menu.svg"
