@@ -13,7 +13,7 @@
   }
 </style>
 
-<footer id="c" class="swiper-slide flex-center">
+<footer id="c" class="swiper-slide flex-center" data-hash="c">
   <Social />
   footer here
   <div>&copy; 2019</div>

@@ -13,7 +13,7 @@
   }
 </style>
 
-<section id="go" class="swiper-slide flex-center">
+<section id="go" class="swiper-slide flex-center"  data-hash="go">
   <p class="push">
     <span class="title">The Push</span>
     My interest in computers was piqued at young age. I first learned about
