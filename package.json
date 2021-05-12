@@ -18,7 +18,7 @@
     "compression": "^1.7.4",
     "polka": "^0.5.2",
     "sirv": "^0.4.2",
-    "swiper": "^5.3.0"
+    "swiper": "^6.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
